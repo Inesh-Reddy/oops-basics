@@ -8,11 +8,11 @@ public class bankAccount {
     //attributes/properties
     private double balance;
     private String ownerName;
-
-
+    
     bankAccount() {
 
     }
+
     bankAccount(double balance1, String ownerName1) {
         balance = balance1;
         ownerName = ownerName1;
@@ -46,7 +46,6 @@ public class bankAccount {
             System.out.println(log);
         }
     }
-
 
     public double getBalance(){
         return balance;
